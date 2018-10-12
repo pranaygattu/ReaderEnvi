@@ -1,0 +1,215 @@
+#wrapper{
+    font-family: tohoma;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#subheader a:hover{
+    color: white;
+    transition: all .5s ease;
+}
+#subheader{
+   width: 100%;
+    height: 30px;
+    background: darkorange;
+    margin-top: -15px;
+}
+#subheader p{
+    float: left;
+    margin-top: 7px;
+}
+#subheader a{
+    float: right;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/*logo styling*/
+#main-header{
+    width: 100%;
+    height: 100px;
+    background: orange;
+    float: left;
+    margin-top: -15px;
+}
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    float: left;
+}
+#ist{
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: sans-serif "Roboto";
+}
+#iist{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif "Roboto";  
+}
+/*searching area styling*/
+#search{
+    width: 650px;
+    float: left;
+    padding: 20px;
+    
+}
+.search-area{
+    width: 650px;
+    height: 50px;
+    background: white;
+    border:none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 15px;  
+}
+.search-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    color: #fff;
+    background: brown;
+    margin-left: 600px; 
+    margin-top: -50px;
+}
+.search-btn :hover{
+    color: green;
+    transition: all .5 ease;
+}
+/*this is for user menu styling*/
+#user-menu{
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+}
+/*this is for list styling*/
+#user-menu li{
+    float: left;
+    width: 140px;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    
+}
+#user-menu li:hover{
+    font-size: 30px;
+    transition: all .5s ease;
+}
+#user-menu li a{
+    color:black;
+    text-decoration:none;
+}
+/*navigation bar style */
+
+#navigation{
+    width: 100%;
+    height: 35px;
+    background: orange;
+    float: left;
+    box-shadow: 10px 14px 50px 2px orange;
+}
+nav{
+    width: 1280px;
+    margin: 0 auto; 
+}
+nav a{
+    margin-left: 35px;
+    color: black;
+    text-decoration:none; 
+}
+nav a:hover{
+    color: #fff;
+    transition: all .3s ease;
+}
+/* cat boxes*/
+.catbox
+{
+    width: 200px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 0 50 30;
+}
+.catbox span{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: block;
+    bottom: 30px;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+}
+.catbox img{
+    max-width: 100%;
+    transition: all .5s ease;
+}
+.catbox:hover img{
+    transform: scale(1.3,1.3);
+    transition: all .5s ease;
+}
+/*footer*/
+#footer{
+	width: 100%;
+	height:auto;
+	background: black;
+	float: left;
+        color: white;
+}
+.footer_sub{
+	width: 25%;
+	float: left;
+}
+.footer_sub_2{
+	width: 20%;
+	float:left;
+}
+.footer_sub_2 ul li{
+	list-style: none;
+}
+.footer_sub_2 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.footer_sub_2 ul li a:hover{
+	color: #1aaa1a;
+	text-decoration: underline;
+}
+.footer_sub_3{
+	width: 35%;
+	float: left;
+        color: white;
+}
+.subs{
+	width: 350px;
+	border: none;
+	height: 50px;
+	padding: 15px;
+	float: left;
+}
+.sub_btn{
+	height: 50px;
+	border: none;background: #1aaa1a;
+	float: left;
+}
+.sub_p{
+	color: #999;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.menu-togglr{
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size: 20px;
+    display: none;
+}

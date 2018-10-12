@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-top:30px;
+    
+}
+
+.main-nav li
+{
+    display:inline-block;
+    
+}
+.main-nav a
+{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+}
+.main-nav li.active a
+{
+    border:1px solid white;
+}
+.main-nav li a:hover
+{
+    border :1px solid white;
+}
+.name{
+    float:left;
+    list-style: none;
+    margin-top:30px;
+    
+}
+.name
+{
+    color:silver;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: monospace; 
+    font-size: 35px;
+}
+body{
+    font-family: monospace;
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    padding: 155px 20px;
+}
+.button
+{
+    float:right;
+    margin-top: 0px;
+    margin-left: 440px;
+   
+}
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 500px;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+.btn{
+    background-color: darkorange;
+    font-family: "Roboto",sans-serif;
+    transition: all 0.5s ease-in;
+}
+.head{
+    float:left;
+    list-style: none;
+    margin-top:30px;
+    color:white;
+    text-decoration: none;
+    padding: 10px 450px;
+    font-family: monospace; 
+    font-size: 35px;
+    
+}
+
+/*this sytle is for registration page*/
+body
+{
+    
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(ebook.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.registration-title {
+    margin-top:auto;
+    color: silver;
+    text-transform: uppercase;
+
+}
+.registration-title h1{
+    font-size: 30px;
+    line-height: 10px;
+}
+.registration-title h2{
+    font-size: 16px;
+    margin-top:-100px;
+    
+}
+.form
+{
+    margin-top: auto;
+}
+.form-control
+{
+    width:450px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid gray;
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.form-control:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+input
+{
+    height: 45px;
+}
+form .submit
+{
+    background: #ff5722;
+    border-color: transparent;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+form .reset
+{
+    background: #ff5722;
+    border-color: transparent;
+    color:#fffs;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .reset:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+.login-title{
+    margin-top:auto;
+    color: silver;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+.log-form
+{
+    margin-top: -100px;
+}
